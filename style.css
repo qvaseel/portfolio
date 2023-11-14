@@ -1,0 +1,251 @@
+body {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    transition: 0.3s;
+    scroll-behavior: smooth;
+}
+
+.container {
+    background-color: #F4F4F2;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100%;
+    height: auto !important;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #E8E8E8;
+    height: 100px;
+}
+
+nav {
+    max-width: 940px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo p {
+    padding-top: 30px;
+    color: #495464;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.nav {
+    width: 512px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #495464;
+}
+
+.nav_link:hover {
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.nav_link p {
+    color: #495464;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+main {
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: #495464;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.block{
+    max-width: 940px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.aboutme img {
+    margin-top: 38px;
+    margin-bottom: 37px;
+    margin-left: 57px;
+    margin-right: 100px;
+}
+
+.aboutme p {
+    color: #495464;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.works {
+    background-color: #E8E8E8;
+    padding-top: 60px;
+    width: 100%;
+}
+
+.slider-container {
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 898px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+}
+  
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 898px;
+}
+
+.slide {
+    width: 780px;
+}
+
+.slide img {
+    width: 780px;
+    height: 552px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.slide p {
+    color: #495464;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0;
+    margin: 0 auto;
+    width: 95%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.prev-button {
+    margin-right: 10px;
+}
+
+.prev-button,
+.next-button {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 200px;
+}
+
+.none {
+    display: none;
+}
+
+.awards {
+    padding-top: 60px;
+}
+
+.awards_photo {
+    margin: 0 auto;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.award_img {
+    width: 300px;
+}
+
+/* .award_img:hover {
+    width: 315px;
+    transition: 0.3s;
+} */
+
+.contacts {
+    width: 100%;
+    background-color: #E8E8E8;
+    padding-top: 60px;
+}
+
+.cards {
+    width: 570px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.conts {
+    width: auto;
+    margin: 0 auto;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cont img {
+    width: 60px;
+    margin-right: 15px;
+}
+
+.cont a {
+    text-decoration: none;
+    color: black;
+}
+
+.cont a:hover {
+    text-decoration: underline;
+}
+
+.cont p {
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0;
+}
+
+footer {
+    background-color: #495464;
+    width: 100%;
+    height: 100px;
+}
+
+footer p {
+    color: #E8E8E8;
+    font-size: 26px;
+    margin: 0;
+    margin-top: 37px;
+    font-weight: bold;
+    text-align: center;
+}
